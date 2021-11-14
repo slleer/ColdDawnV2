@@ -1,0 +1,1702 @@
+﻿Log file open, 11/04/21 10:50:51
+LogInit: Display: Running engine for game: ColdDawn
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165292
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:204][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:212][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.04-17.50.52:212][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.11.04-17.50.52:213][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.04-17.50.52:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.04-17.50.52:213][  0]LogHAL: Display: Platform has ~ 32 GB [34212347904 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.11.04-17.50.52:213][  0]LogInit: Going up to parent DeviceProfile []
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.11.04-17.50.52:213][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Scalability.ini]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.11.04-17.50.52:214][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.11.04-17.50.52:215][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.11.04-17.50.52:215][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.11.04-17.50.52:215][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.11.04-17.50.52:215][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.11.04-17.50.52:215][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.11.04-17.50.52:215][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/unreal_workspace/ColdDawn/Saved/Config/Windows/Engine.ini]
+[2021.11.04-17.50.52:215][  0]LogInit: Computer: SLEERBOX
+[2021.11.04-17.50.52:215][  0]LogInit: User: steph
+[2021.11.04-17.50.52:215][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.11.04-17.50.52:215][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.04-17.50.52:215][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.11.04-17.50.52:215][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.04-17.50.52:215][  0]LogMemory: Process Physical Memory: 119.41 MB used, 119.42 MB peak
+[2021.11.04-17.50.52:215][  0]LogMemory: Process Virtual Memory: 113.40 MB used, 113.40 MB peak
+[2021.11.04-17.50.52:215][  0]LogMemory: Physical Memory: 12008.20 MB used,  20619.24 MB free, 32627.44 MB total
+[2021.11.04-17.50.52:215][  0]LogMemory: Virtual Memory: 5220.34 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2021.11.04-17.50.52:220][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.11.04-17.50.52:264][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.11.04-17.50.52:265][  0]LogInit: Using OS detected language (en-US).
+[2021.11.04-17.50.52:265][  0]LogInit: Using OS detected locale (en-US).
+[2021.11.04-17.50.52:266][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.11.04-17.50.52:456][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.11.04-17.50.52:456][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.11.04-17.50.52:593][  0]LogHMD: Failed to initialize OpenVR with code 119
+[2021.11.04-17.50.52:593][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.11.04-17.50.52:593][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.11.04-17.50.52:593][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.04-17.50.52:688][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.11.04-17.50.52:688][  0]LogD3D11RHI:       8079/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.11.04-17.50.52:711][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.11.04-17.50.52:711][  0]LogD3D11RHI:       128/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2021.11.04-17.50.52:712][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.04-17.50.52:713][  0]LogD3D11RHI:       0/0/16313 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.04-17.50.52:713][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.04-17.50.52:719][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.04-17.50.52:719][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.11.04-17.50.52:719][  0]LogWindows: EnumDisplayDevices:
+[2021.11.04-17.50.52:719][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.11.04-17.50.52:720][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.11.04-17.50.52:720][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.11.04-17.50.52:720][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.11.04-17.50.52:721][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.11.04-17.50.52:721][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2021.11.04-17.50.52:721][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.11.04-17.50.52:721][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.11.04-17.50.52:722][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.11.04-17.50.52:722][  0]LogD3D11RHI:   Driver Version: 472.12 (internal:30.0.14.7212, unified:472.12)
+[2021.11.04-17.50.52:722][  0]LogD3D11RHI:      Driver Date: 9-13-2021
+[2021.11.04-17.50.52:722][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.11.04-17.50.52:791][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.11.04-17.50.52:791][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.04-17.50.52:791][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.11.04-17.50.52:808][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.11.04-17.50.53:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.11.04-17.50.53:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.11.04-17.50.53:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.11.04-17.50.53:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.11.04-17.50.53:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.11.04-17.50.53:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.11.04-17.50.53:112][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.11.04-17.50.53:119][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.11.04-17.50.53:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.11.04-17.50.53:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.11.04-17.50.53:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.11.04-17.50.53:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.11.04-17.50.53:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.11.04-17.50.53:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.11.04-17.50.53:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.11.04-17.50.53:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.11.04-17.50.53:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.11.04-17.50.53:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.11.04-17.50.53:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.11.04-17.50.53:198][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.04-17.50.53:204][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.11.04-17.50.53:245][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/unreal_workspace/ColdDawn/Intermediate/Shaders/WorkingDirectory/36244/).
+[2021.11.04-17.50.53:245][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/steph/AppData/Local/Temp/UnrealShaderWorkingDir/A2835976412DE7E3214A769D5A41E937/'.
+[2021.11.04-17.50.53:245][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.11.04-17.50.53:246][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.11.04-17.50.53:246][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.04-17.50.53:860][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/unreal_workspace/ColdDawn/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/unreal_workspace/ColdDawn/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.04-17.50.53:904][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.04-17.50.53:913][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.04-17.50.53:913][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.04-17.50.53:913][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.11.04-17.50.53:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/steph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.04-17.50.53:914][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.11.04-17.50.53:914][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.11.04-17.50.53:955][  0]LogSlate: Using FreeType 2.10.0
+[2021.11.04-17.50.53:955][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.04-17.50.53:978][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2021.11.04-17.50.54:157][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.04-17.50.54:244][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.04-17.50.54:244][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.11.04-17.50.54:244][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.11.04-17.50.54:244][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.11.04-17.50.54:244][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.11.04-17.50.54:261][  0]LogNetVersion: ColdDawn 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3432050753)
+[2021.11.04-17.50.54:603][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001BA732BD380), frame # 0
+[2021.11.04-17.50.54:603][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA731F7C40), frame # 0
+[2021.11.04-17.50.54:604][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA73255E00), frame # 0
+[2021.11.04-17.50.54:629][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.020586 seconds
+[2021.11.04-17.50.54:633][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.11.04-17.50.54:633][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.11.04-17.50.54:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.04-17.50.54:878][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.04-17.50.54:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.04-17.50.54:934][  0]SourceControl: Source control is disabled
+[2021.11.04-17.50.54:934][  0]SourceControl: Source control is disabled
+[2021.11.04-17.50.54:936][  0]SourceControl: Source control is disabled
+[2021.11.04-17.50.54:938][  0]SourceControl: Source control is disabled
+[2021.11.04-17.50.54:944][  0]SourceControl: Source control is disabled
+[2021.11.04-17.50.55:115][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.04-17.50.55:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.04-17.50.55:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.11.04-17.50.55:165][  0]LogOcInput: OculusInput pre-init called
+[2021.11.04-17.50.55:368][  0]LogEngine: Initializing Engine...
+[2021.11.04-17.51.00:684][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.11.04-17.51.00:684][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.11.04-17.51.00:685][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.11.04-17.51.00:779][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.11.04-17.51.00:785][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.04-17.51.00:785][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA7D43BC00), frame # 0
+[2021.11.04-17.51.00:785][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA7D437B00), frame # 0
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-17.51.00:801][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-17.51.00:801][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-17.51.00:801][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-17.51.00:829][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-17.51.00:829][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-17.51.00:883][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-17.51.00:886][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-17.51.00:888][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-17.51.00:888][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-17.51.00:889][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-17.51.00:890][  0]LogInit: FAudioDevice initialized.
+[2021.11.04-17.51.00:890][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.11.04-17.51.00:959][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/steph/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.11.04-17.51.00:959][  0]LogInit: Texture streaming: Enabled
+[2021.11.04-17.51.00:972][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.04-17.51.00:972][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.11.04-17.51.00:973][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.11.04-17.51.01:002][  0]LogInit: Transaction tracking system initialized
+[2021.11.04-17.51.01:016][  0]BlueprintLog: New page: Editor Load
+[2021.11.04-17.51.01:066][  0]LocalizationService: Localization service is disabled
+[2021.11.04-17.51.01:177][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.04-17.51.01:177][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.04-17.51.01:282][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/ColdDawn/Content/' took 0.00s
+[2021.11.04-17.51.01:458][  0]SourceControl: Source control is disabled
+[2021.11.04-17.51.01:459][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.752
+[2021.11.04-17.51.01:459][  0]Cmd: MAP LOAD FILE="D:/unreal_workspace/ColdDawn/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.04-17.51.01:459][  0]LightingResults: New page: Lighting Build
+[2021.11.04-17.51.01:459][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-17.51.01:459][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-17.51.01:460][  0]MapCheck: New page: Map Check
+[2021.11.04-17.51.01:460][  0]LightingResults: New page: Lighting Build
+[2021.11.04-17.51.01:469][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA7D43BC00), frame # 0
+[2021.11.04-17.51.01:469][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA7D437B00), frame # 0
+[2021.11.04-17.51.01:469][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.04-17.51.01:640][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.11.04-17.51.01:640][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA7D65FE00), frame # 0
+[2021.11.04-17.51.01:640][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA7D6A6200), frame # 0
+[2021.11.04-17.51.01:662][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.04-17.51.01:675][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.11.04-17.51.01:676][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.04-17.51.01:676][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2021.11.04-17.51.01:676][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.217
+[2021.11.04-17.51.01:677][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.970
+[2021.11.04-17.51.01:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-17.51.01:830][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-17.51.01:836][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-17.51.01:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-17.51.01:846][  0]LogCollectionManager: Loaded 0 collections in 0.000575 seconds
+[2021.11.04-17.51.01:859][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/ColdDawn/Saved/Collections/' took 0.00s
+[2021.11.04-17.51.01:859][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/ColdDawn/Content/Developers/steph/Collections/' took 0.00s
+[2021.11.04-17.51.01:859][  0]LogFileCache: Scanning file cache for directory 'D:/unreal_workspace/ColdDawn/Content/Collections/' took 0.00s
+[2021.11.04-17.51.01:859][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3427 classes and 821 folders.
+[2021.11.04-17.51.01:861][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.11.04-17.51.01:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.11.04-17.51.01:899][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.11.04-17.51.01:995][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.04-17.51.01:996][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.04-17.51.02:000][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.04-17.51.02:071][  0]LogRenderer: Reallocating scene render targets to support 1148x540 Format 10 NumSamples 1 (Frame:1).
+[2021.11.04-17.51.02:201][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.11.04-17.51.02:201][  0]LogLoad: (Engine Initialization) Total time: 11.49 seconds
+[2021.11.04-17.51.02:201][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.04-17.51.02:244][  0]LogAssetRegistry: Asset discovery search completed in 8.2664 seconds
+[2021.11.04-17.51.02:247][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.11.04-17.51.02:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.04-17.51.02:285][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.04-17.51.26:948][ 96]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.11.04-17.51.27:144][ 96]LogStaticMesh: Building static mesh SM_Rock...
+[2021.11.04-17.51.27:170][ 96]LogStaticMesh: Built static mesh [0.09s] /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-17.51.27:263][ 96]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.11.04-17.51.27:275][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.11.04-17.51.27:276][ 96]Cmd: MAP LOAD FILE="D:/unreal_workspace/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.04-17.51.27:276][ 96]LightingResults: New page: Lighting Build
+[2021.11.04-17.51.27:276][ 96]LoadErrors: New page: Loading map: tutorial_map_v1.umap
+[2021.11.04-17.51.27:325][ 96]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-17.51.27:325][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-17.51.27:325][ 96]MapCheck: New page: Map Check
+[2021.11.04-17.51.27:325][ 96]LightingResults: New page: Lighting Build
+[2021.11.04-17.51.27:334][ 96]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA7D65FE00), frame # 2096
+[2021.11.04-17.51.27:334][ 96]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA7D6A6200), frame # 2096
+[2021.11.04-17.51.27:335][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.11.04-17.51.27:400][ 96]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.04-17.51.27:400][ 96]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-17.51.27:400][ 96]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA266E3A00), frame # 2096
+[2021.11.04-17.51.27:400][ 96]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA288BC540), frame # 2096
+[2021.11.04-17.51.27:412][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.04-17.51.27:430][ 96]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.04-17.51.27:430][ 96]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.084ms to complete.
+[2021.11.04-17.51.27:430][ 96]LogFileHelpers: Loading map 'tutorial_map_v1' took 0.154
+[2021.11.04-18.17.33:662][440]Cmd: EDIT COPY
+[2021.11.04-18.17.34:052][486]Cmd: EDIT PASTE
+[2021.11.04-18.18.17:748][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.04-18.18.17:819][481]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/tutorial_map_v1_Auto110835B1346319CE121E313BEF0A6D647.tmp' to 'D:/unreal_workspace/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/tutorial_map_v1_Auto1.umap'
+[2021.11.04-18.18.17:820][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.082
+[2021.11.04-18.18.17:820][481]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.082
+[2021.11.04-18.18.38:127][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-18.18.39:642][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1" FILE="D:/unreal_workspace/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.04-18.18.39:651][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.11.04-18.18.39:723][  4]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/tutorial_map_v13B7C0F68444F6D5DC3C5CC87174C49CF.tmp' to 'D:/unreal_workspace/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1.umap'
+[2021.11.04-18.18.39:738][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ColdDawn/Levels/tutorial_map_v1_BuiltData" FILE="D:/unreal_workspace/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset" SILENT=true
+[2021.11.04-18.18.39:886][  4]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/tutorial_map_v1_BuiltDataAAE4530C4CB746781CDAEAB569238D2B.tmp' to 'D:/unreal_workspace/ColdDawn/Content/ColdDawn/Levels/tutorial_map_v1_BuiltData.uasset'
+[2021.11.04-18.18.39:909][  4]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.04-18.18.39:909][  4]LogContentValidation: Display: Validating World /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1
+[2021.11.04-18.18.39:909][  4]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ColdDawn/Levels/tutorial_map_v1_BuiltData.tutorial_map_v1_BuiltData
+[2021.11.04-18.18.48:990][990]Cmd: TRANSACTION UNDO
+[2021.11.04-18.18.48:990][990]LogEditorTransaction: Undo Select Brush Surface
+[2021.11.04-18.19.56:037][530]Cmd: EDIT COPY
+[2021.11.04-18.19.56:366][567]Cmd: EDIT PASTE
+[2021.11.04-18.20.11:108][142]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush59)
+[2021.11.04-18.21.33:246][458]Cmd: TRANSACTION UNDO
+[2021.11.04-18.21.33:246][458]LogEditorTransaction: Undo Move Actors
+[2021.11.04-18.21.33:763][470]Cmd: TRANSACTION UNDO
+[2021.11.04-18.21.33:763][470]LogEditorTransaction: Undo Move Actors
+[2021.11.04-18.21.49:965][222]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-18.22.43:304][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-18.22.54:728][358]Cmd: TRANSACTION UNDO
+[2021.11.04-18.22.54:728][358]LogEditorTransaction: Undo Move Actors
+[2021.11.04-18.22.55:305][378]Cmd: TRANSACTION UNDO
+[2021.11.04-18.22.55:305][378]LogEditorTransaction: Undo Move Actors
+[2021.11.04-18.23.03:316][233]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.23.20:956][137]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.23.34:086][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush13)
+[2021.11.04-18.23.35:080][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.23.39:295][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
+[2021.11.04-18.23.40:566][268]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Bush13)
+[2021.11.04-18.23.42:155][443]Cmd: EDIT COPY
+[2021.11.04-18.23.42:941][535]Cmd: EDIT PASTE
+[2021.11.04-18.23.46:904][965]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.23.55:040][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush20)
+[2021.11.04-18.23.59:008][303]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder12)
+[2021.11.04-18.24.03:508][801]Cmd: EDIT COPY
+[2021.11.04-18.24.03:815][835]Cmd: EDIT PASTE
+[2021.11.04-18.24.33:997][217]Cmd: EDIT PASTE
+[2021.11.04-18.24.47:193][695]Cmd: EDIT PASTE
+[2021.11.04-18.24.56:873][778]Cmd: EDIT PASTE
+[2021.11.04-18.25.53:070][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2021.11.04-18.25.54:041][249]Cmd: EDIT COPY
+[2021.11.04-18.25.54:411][292]Cmd: EDIT PASTE
+[2021.11.04-18.26.13:936][421]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.26.44:188][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2021.11.04-18.26.45:721][500]Cmd: EDIT COPY
+[2021.11.04-18.26.46:042][536]Cmd: EDIT PASTE
+[2021.11.04-18.27.17:315][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder17)
+[2021.11.04-18.27.26:734][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_3)
+[2021.11.04-18.27.27:689][135]Cmd: EDIT COPY
+[2021.11.04-18.27.28:051][174]Cmd: EDIT PASTE
+[2021.11.04-18.27.30:686][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-18.27.31:626][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_5)
+[2021.11.04-18.27.35:237][907]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.27.40:430][472]Cmd: EDIT COPY
+[2021.11.04-18.27.40:721][504]Cmd: EDIT PASTE
+[2021.11.04-18.27.45:487][ 28]Cmd: EDIT PASTE
+[2021.11.04-18.27.53:269][877]Cmd: EDIT COPY
+[2021.11.04-18.27.53:537][907]Cmd: EDIT PASTE
+[2021.11.04-18.27.56:373][218]Cmd: EDIT PASTE
+[2021.11.04-18.28.03:422][982]Cmd: DELETE
+[2021.11.04-18.28.03:422][982]Cmd: ACTOR DELETE
+[2021.11.04-18.28.03:451][982]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-18.28.03:478][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.11.04-18.28.03:482][982]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2021.11.04-18.28.19:175][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-18.28.19:973][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder17)
+[2021.11.04-18.28.20:882][ 18]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.29.07:082][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_7)
+[2021.11.04-18.29.07:956][190]Cmd: EDIT COPY
+[2021.11.04-18.29.08:217][217]Cmd: EDIT PASTE
+[2021.11.04-18.29.11:344][537]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.29.19:950][485]Cmd: EDIT COPY
+[2021.11.04-18.29.20:240][518]Cmd: EDIT PASTE
+[2021.11.04-18.29.24:290][973]Cmd: EDIT PASTE
+[2021.11.04-18.29.33:899][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2021.11.04-18.29.34:028][ 32]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.29.35:579][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_4)
+[2021.11.04-18.29.36:387][270]Cmd: EDIT COPY
+[2021.11.04-18.29.36:665][301]Cmd: EDIT PASTE
+[2021.11.04-18.30.03:136][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_4)
+[2021.11.04-18.30.26:380][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_MatPreviewMesh_9)
+[2021.11.04-18.30.27:373][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.30.49:389][418]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.30.57:815][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock15)
+[2021.11.04-18.30.58:915][465]Cmd: EDIT COPY
+[2021.11.04-18.30.59:211][499]Cmd: EDIT PASTE
+[2021.11.04-18.31.14:805][105]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-18.31.39:263][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-18.31.47:291][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.32.09:465][751]Cmd: EDIT COPY
+[2021.11.04-18.32.09:819][790]Cmd: EDIT PASTE
+[2021.11.04-18.32.31:132][137]Cmd: EDIT COPY
+[2021.11.04-18.32.31:442][173]Cmd: EDIT PASTE
+[2021.11.04-18.32.34:176][472]Cmd: TRANSACTION UNDO
+[2021.11.04-18.32.34:176][472]LogEditorTransaction: Undo Move Actors
+[2021.11.04-18.32.45:578][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock25)
+[2021.11.04-18.32.46:498][794]Cmd: EDIT COPY
+[2021.11.04-18.32.46:732][819]Cmd: EDIT PASTE
+[2021.11.04-18.33.27:020][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock25)
+[2021.11.04-18.33.29:235][357]Cmd: EDIT COPY
+[2021.11.04-18.33.29:571][396]Cmd: EDIT PASTE
+[2021.11.04-18.33.58:923][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock27)
+[2021.11.04-18.34.00:144][690]Cmd: EDIT COPY
+[2021.11.04-18.34.00:365][715]Cmd: EDIT PASTE
+[2021.11.04-18.34.46:208][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock29)
+[2021.11.04-18.34.46:998][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock27)
+[2021.11.04-18.34.47:997][759]Cmd: EDIT COPY
+[2021.11.04-18.34.48:334][797]Cmd: EDIT PASTE
+[2021.11.04-18.35.59:647][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock27)
+[2021.11.04-18.36.00:893][133]Cmd: EDIT COPY
+[2021.11.04-18.36.01:132][160]Cmd: EDIT PASTE
+[2021.11.04-18.36.04:433][499]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.04-18.36.19:613][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock31)
+[2021.11.04-18.36.44:337][288]Cmd: EDIT COPY
+[2021.11.04-18.36.44:570][313]Cmd: EDIT PASTE
+[2021.11.04-18.36.57:361][643]Cmd: EDIT COPY
+[2021.11.04-18.36.57:684][678]Cmd: EDIT PASTE
+[2021.11.04-18.37.12:525][ 97]Cmd: EDIT COPY
+[2021.11.04-18.37.12:944][145]Cmd: EDIT PASTE
+[2021.11.04-18.37.28:420][806]Cmd: EDIT COPY
+[2021.11.04-18.37.28:774][844]Cmd: EDIT PASTE
+[2021.11.04-18.37.40:760][143]Cmd: EDIT COPY
+[2021.11.04-18.37.41:116][184]Cmd: EDIT PASTE
+[2021.11.04-18.37.56:761][802]Cmd: EDIT COPY
+[2021.11.04-18.37.57:172][848]Cmd: EDIT PASTE
+[2021.11.04-18.38.11:529][376]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-18.38.11:539][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-18.38.11:539][376]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 4:38:11 AM)
+[2021.11.04-18.38.11:540][376]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.11.04-18.38.11:541][376]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.11.04-18.38.11:541][376]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.38.11:571][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029743s)
+[2021.11.04-18.38.11:571][376]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-18.38.11:571][376]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BAAB572600), frame # 249376
+[2021.11.04-18.38.11:571][376]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA84F36840), frame # 249376
+[2021.11.04-18.38.11:572][376]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2021.11.04-18.38.11:572][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.030937s)
+[2021.11.04-18.38.11:584][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-18.38.11:587][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-18.38.11:587][376]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-18.38.11:587][376]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-18.38.11:597][376]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-18.38.11:597][376]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-18.38.11:632][376]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-18.38.11:632][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-18.38.11:632][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-18.38.11:632][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-18.38.11:632][376]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-18.38.11:644][376]LogInit: FAudioDevice initialized.
+[2021.11.04-18.38.11:656][376]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-18.38.11:661][376]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-11.38.11
+[2021.11.04-18.38.11:661][376]LogWorld: Bringing up level for play took: 0.003589
+[2021.11.04-18.38.11:661][376]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.11.04-18.38.11:664][376]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.11.04-18.38.11:667][376]PIE: Server logged in
+[2021.11.04-18.38.11:668][376]PIE: Play in editor total start time 0.13 seconds.
+[2021.11.04-18.38.26:537][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.38.26:537][979]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.38.26:537][979]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.38.26:537][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.38.26:544][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-18.38.26:546][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.38.26:569][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.38.26:569][979]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA84F36840), frame # 250979
+[2021.11.04-18.38.26:569][979]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BAAB572600), frame # 250979
+[2021.11.04-18.38.26:571][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.11.04-18.38.26:621][981]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.11.04-18.38.28:978][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.38.35:240][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.38.35:320][897]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.11.04-18.38.40:515][387]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.38.40:895][387]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.38.40:895][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.38.41:090][387]LogRenderer: Reallocating scene render targets to support 1360x868 Format 10 NumSamples 1 (Frame:1).
+[2021.11.04-18.39.05:254][331]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.11.04-18.39.05:332][331]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/tutorial_map_v1_Auto2D565C961431A6C5486BD0C9EED9FAB23.tmp' to 'D:/unreal_workspace/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/tutorial_map_v1_Auto2.umap'
+[2021.11.04-18.39.05:333][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.089
+[2021.11.04-18.39.05:333][331]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2021.11.04-18.40.10:192][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.40.12:124][587]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-18.40.12:133][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-18.40.12:133][587]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 4:40:12 AM)
+[2021.11.04-18.40.12:154][587]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.40.12:184][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029307s)
+[2021.11.04-18.40.12:185][587]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-18.40.12:185][587]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA9EA36000), frame # 259587
+[2021.11.04-18.40.12:185][587]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAA181ED40), frame # 259587
+[2021.11.04-18.40.12:185][587]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2021.11.04-18.40.12:185][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.030623s)
+[2021.11.04-18.40.12:194][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-18.40.12:196][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-18.40.12:196][587]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-18.40.12:196][587]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-18.40.12:204][587]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-18.40.12:204][587]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-18.40.12:238][587]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-18.40.12:238][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-18.40.12:238][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-18.40.12:238][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-18.40.12:239][587]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-18.40.12:250][587]LogInit: FAudioDevice initialized.
+[2021.11.04-18.40.12:261][587]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-18.40.12:265][587]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-11.40.12
+[2021.11.04-18.40.12:266][587]LogWorld: Bringing up level for play took: 0.004324
+[2021.11.04-18.40.12:266][587]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.11.04-18.40.12:269][587]PIE: Server logged in
+[2021.11.04-18.40.12:270][587]PIE: Play in editor total start time 0.137 seconds.
+[2021.11.04-18.40.21:508][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.40.21:509][336]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.40.21:509][336]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.40.21:511][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.40.21:526][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-18.40.21:529][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.40.21:544][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.40.21:561][336]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAA181ED40), frame # 260336
+[2021.11.04-18.40.21:561][336]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA9EA36000), frame # 260336
+[2021.11.04-18.40.21:562][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.04-18.40.21:589][337]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.11.04-18.40.22:766][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.40.32:489][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-18.40.44:275][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-18.40.52:670][712]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-18.40.52:679][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-18.40.52:679][712]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 4:40:52 AM)
+[2021.11.04-18.40.52:705][712]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.40.52:734][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029766s)
+[2021.11.04-18.40.52:735][712]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-18.40.52:735][712]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA8E146000), frame # 262712
+[2021.11.04-18.40.52:735][712]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA288A9800), frame # 262712
+[2021.11.04-18.40.52:735][712]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2021.11.04-18.40.52:736][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.030884s)
+[2021.11.04-18.40.52:744][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-18.40.52:746][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-18.40.52:746][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-18.40.52:747][712]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-18.40.52:747][712]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-18.40.52:756][712]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-18.40.52:756][712]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-18.40.52:789][712]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-18.40.52:790][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-18.40.52:790][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-18.40.52:790][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-18.40.52:790][712]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-18.40.52:801][712]LogInit: FAudioDevice initialized.
+[2021.11.04-18.40.52:809][712]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-18.40.52:813][712]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-11.40.52
+[2021.11.04-18.40.52:813][712]LogWorld: Bringing up level for play took: 0.003466
+[2021.11.04-18.40.52:813][712]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.11.04-18.40.52:816][712]PIE: Server logged in
+[2021.11.04-18.40.52:817][712]PIE: Play in editor total start time 0.139 seconds.
+[2021.11.04-18.41.07:325][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.41.07:325][924]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.41.07:325][924]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.41.07:326][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.41.07:331][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-18.41.07:333][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.41.07:342][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.41.07:358][924]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA288A9800), frame # 263924
+[2021.11.04-18.41.07:358][924]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA8E146000), frame # 263924
+[2021.11.04-18.41.07:359][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.11.04-18.41.07:413][926]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.11.04-18.41.19:003][741]LogSlate: Window 'SM_Rock' being destroyed
+[2021.11.04-18.41.19:055][741]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.41.19:055][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.41.21:145][908]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.41.21:405][908]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.41.21:405][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.49.42:481][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.49.42:493][133]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock17C23A064248B26E13A7EA8E820FC554.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.49.42:510][133]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.49.42:510][133]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.49.43:920][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.49.43:927][221]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock0C7ED2354B8BC784BF25F6AB541B40A1.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.49.43:941][221]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.49.43:941][221]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.49.44:086][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.49.44:093][229]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockC1DDF1DA4B915D8249D555ABF9985E70.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.49.44:104][229]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.49.44:104][229]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.49.44:270][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.49.44:277][239]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockF37495EE49B6395DB64875949775079B.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.49.44:291][239]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.49.44:291][239]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.49.45:737][327]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-18.49.45:746][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-18.49.45:746][327]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 4:49:45 AM)
+[2021.11.04-18.49.45:746][327]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.49.45:776][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029906s)
+[2021.11.04-18.49.45:777][327]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-18.49.45:777][327]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA68D8AA00), frame # 295327
+[2021.11.04-18.49.45:777][327]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAA1B36AC0), frame # 295327
+[2021.11.04-18.49.45:777][327]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2021.11.04-18.49.45:777][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.031016s)
+[2021.11.04-18.49.45:788][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-18.49.45:790][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-18.49.45:790][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-18.49.45:791][327]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-18.49.45:791][327]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-18.49.45:801][327]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-18.49.45:801][327]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-18.49.45:833][327]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-18.49.45:833][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-18.49.45:833][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-18.49.45:833][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-18.49.45:834][327]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-18.49.45:845][327]LogInit: FAudioDevice initialized.
+[2021.11.04-18.49.45:850][327]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-18.49.45:855][327]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-11.49.45
+[2021.11.04-18.49.45:855][327]LogWorld: Bringing up level for play took: 0.004046
+[2021.11.04-18.49.45:855][327]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.11.04-18.49.45:859][327]PIE: Server logged in
+[2021.11.04-18.49.45:860][327]PIE: Play in editor total start time 0.114 seconds.
+[2021.11.04-18.50.03:443][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.50.03:443][638]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.50.03:443][638]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.50.03:444][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.50.03:451][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-18.50.03:452][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.50.03:476][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.50.03:477][638]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAA1B36AC0), frame # 296638
+[2021.11.04-18.50.03:477][638]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA68D8AA00), frame # 296638
+[2021.11.04-18.50.03:478][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.11.04-18.50.03:539][640]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.11.04-18.50.16:520][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.50.16:527][628]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock1D312C1B486A895B969990826A3B67C8.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.50.16:541][628]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.50.16:541][628]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.50.47:334][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-18.50.47:341][ 30]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock0DFE2B464A0B147E450F51A1264C966C.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-18.50.47:354][ 30]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-18.50.47:354][ 30]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-18.50.52:016][382]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-18.50.52:024][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-18.50.52:025][382]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 4:50:52 AM)
+[2021.11.04-18.50.52:063][382]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.50.52:093][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030043s)
+[2021.11.04-18.50.52:094][382]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-18.50.52:094][382]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BAA188F600), frame # 300382
+[2021.11.04-18.50.52:094][382]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAFB875080), frame # 300382
+[2021.11.04-18.50.52:094][382]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2021.11.04-18.50.52:094][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.031256s)
+[2021.11.04-18.50.52:103][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.04-18.50.52:104][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-18.50.52:104][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-18.50.52:104][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-18.50.52:104][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-18.50.52:104][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-18.50.52:105][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-18.50.52:105][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-18.50.52:105][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-18.50.52:105][382]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-18.50.52:105][382]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-18.50.52:114][382]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-18.50.52:114][382]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-18.50.52:150][382]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-18.50.52:150][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-18.50.52:150][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-18.50.52:150][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-18.50.52:150][382]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-18.50.52:161][382]LogInit: FAudioDevice initialized.
+[2021.11.04-18.50.52:171][382]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-18.50.52:176][382]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-11.50.52
+[2021.11.04-18.50.52:176][382]LogWorld: Bringing up level for play took: 0.003744
+[2021.11.04-18.50.52:176][382]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.11.04-18.50.52:180][382]PIE: Server logged in
+[2021.11.04-18.50.52:181][382]PIE: Play in editor total start time 0.157 seconds.
+[2021.11.04-18.51.10:594][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.51.10:594][845]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-18.51.10:594][845]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-18.51.10:595][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.51.10:601][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-18.51.10:602][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-18.51.10:611][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-18.51.10:626][845]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAFB875080), frame # 301845
+[2021.11.04-18.51.10:626][845]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BAA188F600), frame # 301845
+[2021.11.04-18.51.10:628][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.04-18.51.10:688][847]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.11.04-18.51.28:974][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-18.52.01:260][336]Cmd: TRANSACTION UNDO
+[2021.11.04-18.52.01:260][336]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-18.53.16:331][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.11.04-18.53.16:410][294]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/tutorial_map_v1_Auto3E5A230964BCB0421C241DB8C56796887.tmp' to 'D:/unreal_workspace/ColdDawn/Saved/Autosaves/Game/ColdDawn/Levels/tutorial_map_v1_Auto3.umap'
+[2021.11.04-18.53.16:411][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ColdDawn/Levels/tutorial_map_v1' took 0.088
+[2021.11.04-18.53.16:411][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2021.11.04-18.58.17:612][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-18.58.33:276][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-18.58.46:795][981]Cmd: TRANSACTION UNDO
+[2021.11.04-18.58.46:795][981]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-18.58.50:634][201]Cmd: TRANSACTION UNDO
+[2021.11.04-18.58.50:634][201]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-18.58.51:356][222]Cmd: TRANSACTION UNDO
+[2021.11.04-18.58.51:356][222]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-18.58.51:974][254]Cmd: TRANSACTION UNDO
+[2021.11.04-18.58.51:974][254]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.00.13:439][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.00.13:446][267]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockC6AE7FB14E1F2F6D12011E8BD4D5E07C.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.00.13:461][267]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.00.13:461][267]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.00.15:565][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.00.21:639][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.00.28:359][159]Cmd: DELETE
+[2021.11.04-19.00.28:359][159]Cmd: ACTOR DELETE
+[2021.11.04-19.00.28:371][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-19.00.28:380][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.11.04-19.00.28:382][159]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.04-19.00.30:015][248]LogActorFactory: Actor Factory created SM_Rock
+[2021.11.04-19.00.33:418][434]LogActorFactory: Actor Factory created SM_Rock
+[2021.11.04-19.01.19:203][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.01.52:078][223]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.01.52:086][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.01.52:086][223]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:01:52 AM)
+[2021.11.04-19.01.52:086][223]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.01.52:120][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034320s)
+[2021.11.04-19.01.52:121][223]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.01.52:121][223]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BABF9EA400), frame # 322223
+[2021.11.04-19.01.52:121][223]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAAFDAE340), frame # 322223
+[2021.11.04-19.01.52:121][223]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2021.11.04-19.01.52:122][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.035522s)
+[2021.11.04-19.01.52:130][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.01.52:132][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.01.52:132][223]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.01.52:132][223]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.01.52:140][223]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.01.52:140][223]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.01.52:171][223]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.01.52:172][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.01.52:172][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.01.52:172][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.01.52:172][223]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.01.52:183][223]LogInit: FAudioDevice initialized.
+[2021.11.04-19.01.52:193][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.01.52:197][223]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.01.52
+[2021.11.04-19.01.52:198][223]LogWorld: Bringing up level for play took: 0.003724
+[2021.11.04-19.01.52:198][223]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.11.04-19.01.52:201][223]PIE: Server logged in
+[2021.11.04-19.01.52:202][223]PIE: Play in editor total start time 0.116 seconds.
+[2021.11.04-19.02.23:613][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.02.23:613][514]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.02.23:614][514]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.02.23:614][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.02.23:624][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.02.23:626][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.02.23:663][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.02.23:665][514]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAAFDAE340), frame # 324514
+[2021.11.04-19.02.23:665][514]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BABF9EA400), frame # 324514
+[2021.11.04-19.02.23:665][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.11.04-19.02.23:694][515]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.11.04-19.02.24:434][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.02.43:771][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.02.43:778][656]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock8A1B6ABF45E6BBE52673CD8D1C8CF77C.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.02.43:792][656]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.02.43:792][656]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.02.44:974][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.02.44:981][723]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock5BCF5E8C439BCB24E186F2B2FEE9009B.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.02.44:995][723]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.02.44:995][723]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.02.59:021][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.04.22:389][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.04.22:396][778]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockF49C82DA4D254C4BD7A22A982DD84F73.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.04.22:409][778]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.04.22:409][778]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.04.23:961][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock30)
+[2021.11.04-19.04.24:800][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.04.40:820][922]MapCheck: New page: Map Check
+[2021.11.04-19.04.40:841][922]Cmd: MAP REBUILD
+[2021.11.04-19.04.40:845][922]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.11.04-19.04.41:365][922]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=false
+[2021.11.04-19.04.41:411][922]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2021.11.04-19.04.41:411][922]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.11.04-19.04.41:411][922]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.11.04-19.04.41:411][922]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.11.04-19.04.41:411][922]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.11.04-19.04.41:411][922]MapCheck: New page: tutorial_map_v1 - Nov 4, 2021, 5:04:41 AM
+[2021.11.04-19.04.41:411][922]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.11.04-19.04.41:412][922]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.71ms to complete.
+[2021.11.04-19.04.41:413][922]LogEditorBuildUtils: Build time 0:00
+[2021.11.04-19.04.41:565][922]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.11.04-19.04.47:957][378]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-19.04.47:974][378]LogSlate: Window 'Message Log' being destroyed
+[2021.11.04-19.04.50:548][517]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.04.50:557][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.04.50:557][517]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:04:50 AM)
+[2021.11.04-19.04.50:557][517]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.04.50:590][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031767s)
+[2021.11.04-19.04.50:590][517]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.04.50:591][517]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BABE363000), frame # 333517
+[2021.11.04-19.04.50:591][517]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA9CB611C0), frame # 333517
+[2021.11.04-19.04.50:591][517]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2021.11.04-19.04.50:591][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.033136s)
+[2021.11.04-19.04.50:601][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.11.04-19.04.50:605][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.04.50:605][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.04.50:605][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.04.50:606][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.04.50:606][517]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.04.50:606][517]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.04.50:606][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.04.50:606][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.04.50:606][517]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.04.50:606][517]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.04.50:614][517]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.04.50:614][517]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.04.50:647][517]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.04.50:647][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.04.50:648][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.04.50:648][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.04.50:648][517]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.04.50:648][517]LogInit: FAudioDevice initialized.
+[2021.11.04-19.04.50:663][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.04.50:667][517]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.04.50
+[2021.11.04-19.04.50:667][517]LogWorld: Bringing up level for play took: 0.004017
+[2021.11.04-19.04.50:668][517]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.11.04-19.04.50:670][517]PIE: Server logged in
+[2021.11.04-19.04.50:671][517]PIE: Play in editor total start time 0.114 seconds.
+[2021.11.04-19.05.13:362][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.05.13:362][176]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.05.13:362][176]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.05.13:364][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.05.13:373][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.05.13:375][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.05.13:402][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.05.13:403][176]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA9CB611C0), frame # 335176
+[2021.11.04-19.05.13:403][176]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BABE363000), frame # 335176
+[2021.11.04-19.05.13:404][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.04-19.05.13:468][178]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.11.04-19.05.53:781][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.05.53:789][107]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockE1B70D41462A9DC76AF167A82AE05AC8.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.05.53:804][107]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.05.53:804][107]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.06.01:029][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.06.06:056][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.06.47:109][567]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.06.47:117][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.06.47:117][567]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:06:47 AM)
+[2021.11.04-19.06.47:117][567]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.06.47:149][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031815s)
+[2021.11.04-19.06.47:150][567]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.06.47:150][567]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BABF9E9200), frame # 341567
+[2021.11.04-19.06.47:150][567]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA354E3B00), frame # 341567
+[2021.11.04-19.06.47:150][567]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2021.11.04-19.06.47:150][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.032864s)
+[2021.11.04-19.06.47:159][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.06.47:160][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.06.47:160][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.06.47:161][567]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.06.47:161][567]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.06.47:169][567]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.06.47:169][567]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.06.47:201][567]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.06.47:201][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.06.47:201][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.06.47:201][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.06.47:201][567]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.06.47:212][567]LogInit: FAudioDevice initialized.
+[2021.11.04-19.06.47:220][567]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.06.47:224][567]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.06.47
+[2021.11.04-19.06.47:224][567]LogWorld: Bringing up level for play took: 0.003834
+[2021.11.04-19.06.47:225][567]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.11.04-19.06.47:227][567]PIE: Server logged in
+[2021.11.04-19.06.47:228][567]PIE: Play in editor total start time 0.111 seconds.
+[2021.11.04-19.07.02:451][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.07.02:451][652]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.07.02:451][652]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.07.02:452][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.07.02:460][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.07.02:462][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.07.02:470][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.07.02:485][652]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA354E3B00), frame # 342652
+[2021.11.04-19.07.02:485][652]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BABF9E9200), frame # 342652
+[2021.11.04-19.07.02:487][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.11.04-19.07.02:516][653]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.11.04-19.07.05:838][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.07.23:347][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.07.23:355][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.07.23:356][ 97]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:07:23 AM)
+[2021.11.04-19.07.23:356][ 97]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.07.23:389][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033564s)
+[2021.11.04-19.07.23:390][ 97]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.07.23:390][ 97]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BAFB737C00), frame # 344097
+[2021.11.04-19.07.23:390][ 97]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAB1C2BB00), frame # 344097
+[2021.11.04-19.07.23:390][ 97]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2021.11.04-19.07.23:390][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.034708s)
+[2021.11.04-19.07.23:399][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.11.04-19.07.23:400][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.07.23:400][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.07.23:401][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.07.23:401][ 97]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.07.23:401][ 97]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.07.23:411][ 97]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.07.23:411][ 97]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.07.23:441][ 97]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.07.23:441][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.07.23:442][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.07.23:442][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.07.23:442][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.07.23:442][ 97]LogInit: FAudioDevice initialized.
+[2021.11.04-19.07.23:457][ 97]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.07.23:462][ 97]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.07.23
+[2021.11.04-19.07.23:462][ 97]LogWorld: Bringing up level for play took: 0.004149
+[2021.11.04-19.07.23:462][ 97]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.11.04-19.07.23:465][ 97]PIE: Server logged in
+[2021.11.04-19.07.23:465][ 97]PIE: Play in editor total start time 0.111 seconds.
+[2021.11.04-19.07.32:301][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.07.32:301][725]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.07.32:301][725]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.07.32:302][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.07.32:308][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.07.32:309][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.07.32:318][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.07.32:333][725]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAB1C2BB00), frame # 344725
+[2021.11.04-19.07.32:334][725]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BAFB737C00), frame # 344725
+[2021.11.04-19.07.32:335][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.11.04-19.07.32:395][727]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.11.04-19.07.36:118][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.07.53:116][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2021.11.04-19.08.06:747][222]Cmd: DELETE
+[2021.11.04-19.08.06:747][222]Cmd: ACTOR DELETE
+[2021.11.04-19.08.06:757][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-19.08.06:766][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.11.04-19.08.06:768][222]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.04-19.08.07:930][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.08.10:523][480]Cmd: DELETE
+[2021.11.04-19.08.10:523][480]Cmd: ACTOR DELETE
+[2021.11.04-19.08.10:532][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.04-19.08.10:540][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.11.04-19.08.10:542][480]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.11.04-19.08.14:020][751]Cmd: TRANSACTION UNDO
+[2021.11.04-19.08.14:020][751]LogEditorTransaction: Undo Delete Actors
+[2021.11.04-19.08.19:825][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2021.11.04-19.09.54:507][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.09.54:514][884]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockB70C71784D9122643506C5879C1B0C67.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.09.54:534][884]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.09.54:534][884]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.10.03:800][475]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.03:800][475]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.10.04:314][483]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.04:314][483]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.10.04:763][504]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.04:763][504]LogEditorTransaction: Undo Scale Collision
+[2021.11.04-19.10.05:219][525]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.05:219][525]LogEditorTransaction: Undo Scale Collision
+[2021.11.04-19.10.05:804][559]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.05:804][559]LogEditorTransaction: Undo Scale Collision
+[2021.11.04-19.10.06:368][591]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.06:368][591]LogEditorTransaction: Undo Create Convex Collision
+[2021.11.04-19.10.06:959][624]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.06:959][624]LogEditorTransaction: Undo Remove Collision
+[2021.11.04-19.10.07:574][659]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.07:574][659]LogEditorTransaction: Undo Translate Collision
+[2021.11.04-19.10.08:095][687]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.08:095][687]LogEditorTransaction: Undo Scale Collision
+[2021.11.04-19.10.08:655][717]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.08:655][717]LogEditorTransaction: Undo Scale Collision
+[2021.11.04-19.10.09:178][747]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.09:178][747]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.10.09:751][778]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.09:751][778]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-19.10.11:450][899]Cmd: TRANSACTION UNDO
+[2021.11.04-19.10.11:450][899]LogEditorTransaction: Undo Delete Actors
+[2021.11.04-19.10.19:509][379]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.10.19:518][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.10.19:518][379]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:10:19 AM)
+[2021.11.04-19.10.19:518][379]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.10.19:550][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031637s)
+[2021.11.04-19.10.19:551][379]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.10.19:551][379]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BB1D913000), frame # 355379
+[2021.11.04-19.10.19:551][379]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA355CA840), frame # 355379
+[2021.11.04-19.10.19:551][379]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2021.11.04-19.10.19:551][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.032665s)
+[2021.11.04-19.10.19:559][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.10.19:561][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.10.19:561][379]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.10.19:561][379]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.10.19:569][379]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.10.19:569][379]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.10.19:605][379]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.10.19:606][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.10.19:606][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.10.19:606][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.10.19:606][379]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.10.19:617][379]LogInit: FAudioDevice initialized.
+[2021.11.04-19.10.19:625][379]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.10.19:630][379]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.10.19
+[2021.11.04-19.10.19:630][379]LogWorld: Bringing up level for play took: 0.004385
+[2021.11.04-19.10.19:631][379]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.11.04-19.10.19:633][379]PIE: Server logged in
+[2021.11.04-19.10.19:634][379]PIE: Play in editor total start time 0.117 seconds.
+[2021.11.04-19.10.40:070][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.10.40:070][815]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.10.40:071][815]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.10.40:072][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.10.40:078][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.10.40:080][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.10.40:088][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.10.40:103][815]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA355CA840), frame # 356815
+[2021.11.04-19.10.40:103][815]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BB1D913000), frame # 356815
+[2021.11.04-19.10.40:104][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.11.04-19.10.40:170][817]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.11.04-19.10.58:039][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.10.58:046][ 17]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_Rock868991BF4B08C4FE327068BD95918EC8.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.10.58:061][ 17]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.10.58:061][ 17]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.11.37:394][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.11.37:401][908]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockD517929147EA5BF27FDE6FA9A5EC47CE.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.11.37:415][908]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.11.37:415][908]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.11.39:372][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.11.39:381][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.11.39:381][ 36]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:11:39 AM)
+[2021.11.04-19.11.39:381][ 36]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.11.39:414][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033004s)
+[2021.11.04-19.11.39:415][ 36]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.11.39:415][ 36]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BABDF6A800), frame # 361036
+[2021.11.04-19.11.39:415][ 36]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAB0174A40), frame # 361036
+[2021.11.04-19.11.39:415][ 36]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2021.11.04-19.11.39:415][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.034024s)
+[2021.11.04-19.11.39:424][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.11.04-19.11.39:425][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.11.39:425][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.11.39:425][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.11.39:426][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.11.39:426][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.11.39:426][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.11.39:426][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.11.39:426][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.11.39:426][ 36]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.11.39:426][ 36]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.11.39:434][ 36]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.11.39:434][ 36]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.11.39:470][ 36]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.11.39:470][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.11.39:470][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.11.39:470][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.11.39:470][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.11.39:481][ 36]LogInit: FAudioDevice initialized.
+[2021.11.04-19.11.39:491][ 36]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.11.39:495][ 36]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.11.39
+[2021.11.04-19.11.39:495][ 36]LogWorld: Bringing up level for play took: 0.003877
+[2021.11.04-19.11.39:496][ 36]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.11.04-19.11.39:498][ 36]PIE: Server logged in
+[2021.11.04-19.11.39:499][ 36]PIE: Play in editor total start time 0.119 seconds.
+[2021.11.04-19.11.54:029][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.11.54:029][121]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.11.54:029][121]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.11.54:030][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.11.54:036][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.11.54:038][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.11.54:060][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.11.54:061][121]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAB0174A40), frame # 362121
+[2021.11.04-19.11.54:061][121]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BABDF6A800), frame # 362121
+[2021.11.04-19.11.54:062][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.11.04-19.11.54:124][123]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.11.04-19.11.57:778][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock24)
+[2021.11.04-19.12.05:113][852]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-19.12.17:526][667]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.12.17:533][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.12.17:533][667]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:12:17 AM)
+[2021.11.04-19.12.17:534][667]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.12.17:567][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033252s)
+[2021.11.04-19.12.17:568][667]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.12.17:568][667]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BB1BBCE600), frame # 363667
+[2021.11.04-19.12.17:568][667]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA28945940), frame # 363667
+[2021.11.04-19.12.17:568][667]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2021.11.04-19.12.17:568][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.034327s)
+[2021.11.04-19.12.17:576][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.12.17:578][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.12.17:578][667]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.12.17:578][667]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.12.17:589][667]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.12.17:589][667]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.12.17:622][667]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.12.17:622][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.12.17:622][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.12.17:622][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.12.17:622][667]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.12.17:633][667]LogInit: FAudioDevice initialized.
+[2021.11.04-19.12.17:638][667]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.12.17:643][667]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.12.17
+[2021.11.04-19.12.17:643][667]LogWorld: Bringing up level for play took: 0.004317
+[2021.11.04-19.12.17:643][667]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.11.04-19.12.17:646][667]PIE: Server logged in
+[2021.11.04-19.12.17:647][667]PIE: Play in editor total start time 0.114 seconds.
+[2021.11.04-19.12.48:330][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.12.48:330][806]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.12.48:330][806]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.12.48:331][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.12.48:341][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.12.48:342][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.12.48:352][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.12.48:367][806]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA28945940), frame # 365806
+[2021.11.04-19.12.48:367][806]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BB1BBCE600), frame # 365806
+[2021.11.04-19.12.48:368][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.04-19.12.48:433][808]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.11.04-19.13.01:260][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder16)
+[2021.11.04-19.13.02:473][596]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Bush24)
+[2021.11.04-19.13.03:743][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Bush23)
+[2021.11.04-19.13.05:189][743]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder15)
+[2021.11.04-19.13.06:203][797]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder14)
+[2021.11.04-19.13.10:847][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Bush22)
+[2021.11.04-19.13.12:008][140]Cmd: EDIT COPY
+[2021.11.04-19.13.12:460][168]Cmd: EDIT PASTE
+[2021.11.04-19.15.19:050][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2021.11.04-19.15.19:057][893]LogSavePackage: Moving 'D:/unreal_workspace/ColdDawn/Saved/SM_RockAFCC01504FB7B349841205AE5D79B1F5.tmp' to 'D:/unreal_workspace/ColdDawn/Content/StarterContent/Props/SM_Rock.uasset'
+[2021.11.04-19.15.19:141][893]AssetCheck: New page: Asset Save: SM_Rock
+[2021.11.04-19.15.19:141][893]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2021.11.04-19.15.19:945][938]LogSlate: Window 'SM_Rock' being destroyed
+[2021.11.04-19.15.19:980][938]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.15.19:980][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.15.42:370][904]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Rock15)
+[2021.11.04-19.15.43:295][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Rock13)
+[2021.11.04-19.15.58:408][439]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2021.11.04-19.16.02:145][828]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.11.04-19.16.02:411][855]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.04-19.16.07:491][366]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.11.04-19.16.11:366][766]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.11.04-19.16.11:999][834]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.11.04-19.16.14:431][ 91]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.11.04-19.16.15:968][234]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.16.15:976][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.16.15:976][234]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:16:15 AM)
+[2021.11.04-19.16.16:008][234]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.16.16:042][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034103s)
+[2021.11.04-19.16.16:043][234]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.16.16:043][234]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA8E147A00), frame # 380234
+[2021.11.04-19.16.16:043][234]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA9D060F40), frame # 380234
+[2021.11.04-19.16.16:043][234]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2021.11.04-19.16.16:043][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.035271s)
+[2021.11.04-19.16.16:054][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.16.16:064][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.16.16:064][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.16.16:064][234]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.16.16:065][234]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.16.16:075][234]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.16.16:075][234]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.16.16:110][234]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.16.16:110][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.16.16:110][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.16.16:110][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.16.16:111][234]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.16.16:121][234]LogInit: FAudioDevice initialized.
+[2021.11.04-19.16.16:130][234]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.16.16:135][234]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.16.16
+[2021.11.04-19.16.16:135][234]LogWorld: Bringing up level for play took: 0.003904
+[2021.11.04-19.16.16:135][234]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.11.04-19.16.16:138][234]PIE: Server logged in
+[2021.11.04-19.16.16:139][234]PIE: Play in editor total start time 0.164 seconds.
+[2021.11.04-19.18.46:248][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.18.46:248][987]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.18.46:248][987]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.18.46:249][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.18.46:260][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.18.46:261][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.18.46:285][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.18.46:286][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA9D060F40), frame # 395987
+[2021.11.04-19.18.46:287][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA8E147A00), frame # 395987
+[2021.11.04-19.18.46:287][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.11.04-19.18.46:341][989]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.11.04-19.19.30:929][776]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush25)
+[2021.11.04-19.20.25:353][409]LogEditorViewport: Clicking Background
+[2021.11.04-19.20.27:742][644]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush58)
+[2021.11.04-19.20.29:488][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-19.21.04:566][229]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush60)
+[2021.11.04-19.21.32:899][946]LogGeometryMode: Warning: Unable to find BoxBrush25 Brush(s) in new BSP
+[2021.11.04-19.21.32:899][946]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2021.11.04-19.21.40:635][655]Cmd: TRANSACTION UNDO
+[2021.11.04-19.21.40:635][655]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.10:525][912]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.10:525][912]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.11:078][924]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.11:078][924]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.11:621][973]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.11:621][973]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.12:160][ 23]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.12:160][ 23]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.12:669][ 71]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.12:669][ 71]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-19.23.39:388][860]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.39:388][860]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.39:864][869]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.39:864][869]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.40:515][926]Cmd: TRANSACTION UNDO
+[2021.11.04-19.23.40:515][926]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.23.56:562][618]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.04-19.23.56:570][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.04-19.23.56:570][618]PIE: New page: PIE session: tutorial_map_v1 (Nov 4, 2021, 5:23:56 AM)
+[2021.11.04-19.23.56:596][618]LogPlayLevel: Creating play world package: /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.23.56:630][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033476s)
+[2021.11.04-19.23.56:631][618]LogAIModule: Creating AISystem for world tutorial_map_v1
+[2021.11.04-19.23.56:631][618]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BAEEDA5000), frame # 426618
+[2021.11.04-19.23.56:631][618]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BAEFE60180), frame # 426618
+[2021.11.04-19.23.56:631][618]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2021.11.04-19.23.56:631][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ColdDawn/Levels/tutorial_map_v1.tutorial_map_v1 to /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 (0.034615s)
+[2021.11.04-19.23.56:648][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.04-19.23.56:664][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.04-19.23.56:664][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.04-19.23.56:665][618]LogAudio: Display: Using built-in audio occlusion.
+[2021.11.04-19.23.56:665][618]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.04-19.23.56:673][618]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.04-19.23.56:673][618]LogAudioMixer: Display: 1: FrontRight
+[2021.11.04-19.23.56:705][618]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.11.04-19.23.56:705][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.04-19.23.56:705][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.04-19.23.56:705][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.04-19.23.56:706][618]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.04-19.23.56:717][618]LogInit: FAudioDevice initialized.
+[2021.11.04-19.23.56:723][618]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.11.04-19.23.56:727][618]LogWorld: Bringing World /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1.tutorial_map_v1 up for play (max tick rate 0) at 2021.11.04-12.23.56
+[2021.11.04-19.23.56:728][618]LogWorld: Bringing up level for play took: 0.003979
+[2021.11.04-19.23.56:728][618]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.11.04-19.23.56:731][618]PIE: Server logged in
+[2021.11.04-19.23.56:731][618]PIE: Play in editor total start time 0.162 seconds.
+[2021.11.04-19.24.31:668][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.24.31:668][326]LogWorld: BeginTearingDown for /Game/ColdDawn/Levels/UEDPIE_0_tutorial_map_v1
+[2021.11.04-19.24.31:668][326]LogWorld: UWorld::CleanupWorld for tutorial_map_v1, bSessionEnded=true, bCleanupResources=true
+[2021.11.04-19.24.31:669][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.24.31:675][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.04-19.24.31:677][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.04-19.24.31:704][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.04-19.24.31:707][326]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BAEEDA5000), frame # 430326
+[2021.11.04-19.24.31:707][326]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BAEFE60180), frame # 430326
+[2021.11.04-19.24.31:708][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.11.04-19.24.31:733][327]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.11.04-19.24.34:625][660]Cmd: TRANSACTION UNDO
+[2021.11.04-19.24.34:625][660]LogEditorTransaction: Undo Select Brush Surface
+[2021.11.04-19.24.35:103][670]Cmd: TRANSACTION UNDO
+[2021.11.04-19.24.35:103][670]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-19.24.38:651][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.11.04-19.24.46:231][867]Cmd: TRANSACTION UNDO
+[2021.11.04-19.24.46:231][867]LogEditorTransaction: Undo Move Actors
+[2021.11.04-19.24.57:839][105]Cmd: TRANSACTION UNDO
+[2021.11.04-19.24.57:839][105]LogEditorTransaction: Undo Scale Actors
+[2021.11.04-19.26.01:212][682]Cmd: DELETE
+[2021.11.04-19.26.01:212][682]Cmd: ACTOR DELETE
+[2021.11.04-19.26.01:229][682]LogEditorActor: Deleted Actor: Brush
+[2021.11.04-19.26.01:243][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.11.04-19.26.01:296][682]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2021.11.04-19.26.26:179][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-19.26.28:340][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-19.26.28:865][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.04-19.26.30:737][173]Cmd: TRANSACTION UNDO
+[2021.11.04-19.26.30:737][173]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-19.26.31:202][183]Cmd: TRANSACTION UNDO
+[2021.11.04-19.26.31:202][183]LogEditorTransaction: Undo Select Brush Surface
+[2021.11.04-19.26.31:668][213]Cmd: TRANSACTION UNDO
+[2021.11.04-19.26.31:669][213]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.04-19.26.32:114][243]Cmd: TRANSACTION UNDO
+[2021.11.04-19.26.32:114][243]LogEditorTransaction: Undo Select Brush Surface
+[2021.11.04-19.26.32:562][275]Cmd: TRANSACTION UNDO
+[2021.11.04-19.26.32:562][275]LogEditorTransaction: Undo Select Brush Surface
